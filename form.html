@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <title>Contáctanos</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./about.html">Saber Más</a></li>
+                    <li><a href="./accommodation.html">Alojamiento</a></li>
+                    <li><a href="./visits_activities.html">Actividades</a></li>
+                    <li><a href="./entertainment.html">Entretenimiento</a></li>
+                    <li><a href="./form.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Formulario de Contacto</h1>
+            <div class="formulario-container">
+                <form method="POST" action="mailto:edwardadalidpereira@gmail.com">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" name="nombre" id="nombre" value="" required /><br>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" name="email" id="email" required /><br>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="5" required></textarea><br>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+        </main>
+    </body>
+    <footer>
+
+    </footer>
+</html>
